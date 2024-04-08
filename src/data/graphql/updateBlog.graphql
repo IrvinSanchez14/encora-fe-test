@@ -1,0 +1,7 @@
+mutation updateBlog($id: Float!, $body: BlogRequestUpdateDTO!) {
+  updateBlog(id: $id, body: $body) {
+    title
+    content
+    image
+  }
+}

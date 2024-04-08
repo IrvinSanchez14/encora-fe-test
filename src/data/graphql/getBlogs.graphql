@@ -1,0 +1,8 @@
+query getBlogs($page: Float!) {
+  getBlogs(page: $page) {
+    id
+    title
+    content
+    image
+  }
+}

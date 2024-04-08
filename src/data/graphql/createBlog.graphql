@@ -1,0 +1,7 @@
+mutation createBlog($body: BlogRequestDTO!) {
+  createBlog(body: $body) {
+    title
+    content
+    image
+  }
+}
